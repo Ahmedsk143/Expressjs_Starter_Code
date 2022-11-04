@@ -1,0 +1,17 @@
+{
+    "sql-file": true,
+    "dev": {
+        "driver": "pg",
+        "host": "localhost",
+        "database": "projectdb",
+        "user": "postgres",
+        "password": "123"
+    },
+    "test": {
+        "driver": "pg",
+        "host": "localhost",
+        "database": "projectdbtest",
+        "user": "postgres",
+        "password": "123"
+    }
+}
